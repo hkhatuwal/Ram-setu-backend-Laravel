@@ -1,0 +1,529 @@
+/*......................Mobile devices ........................*/
+
+@media only screen and (max-width:480px) {
+
+   * {
+        /*color:green;*/
+
+   }
+
+
+   .col-xs-1{
+    width:8.33%;
+    max-width: 8.33%;
+    flex: 0 0 8.33%;
+}
+
+.col-xs-2{
+    width:16.66%;
+    max-width: 16.66%;
+    flex: 0 0 16.66%;
+}
+.col-xs-3{
+    width:25%;
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+.col-xs-4{
+    width:33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+.col-xs-5{
+    width:41.66%;
+    max-width: 41.66%;
+    flex: 0 0 41.66%;
+}
+.col-xs-6{
+    width:50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+.col-xs-7{
+    width:58.33%;
+    max-width: 58.33%;
+    flex: 0 0 58.33%;
+}
+.col-xs-8{
+    width:66.66%;
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+.col-xs-9{
+    width:75%;
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+.col-xs-10{
+    width:83.33%;
+    max-width: 83.33%;
+    flex: 0 0 83.33%;
+}
+.col-xs-11{
+    width:91.66%;
+    max-width: 91.66%;
+    flex: 0 0 91.66%;
+}
+
+.col-xs-12{
+    width:100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+   .sidenav, .mobile-header {
+    display:block;
+}
+
+.tob-navbar {
+   left:0px;
+}
+
+footer {
+    left:0px;
+}
+.second-menu {
+    display:none;
+}
+#mySidenav button 
+{
+    width: 100%;
+}
+#mySidenav button:hover .fa-angle-down
+{
+    transform: rotate(180deg);
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1043;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+.company-info
+{
+    padding-bottom: 30px;
+    padding-top:15px;
+}
+.company-info p 
+{
+    margin-bottom: 0px;
+}
+/*.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}*/
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    top: -9px;
+    right: 6px;
+    font-size: 34px;
+    margin-left: 50px;
+    z-index: 999;
+    position: absolute;
+    color: #777;
+}
+div#accordion {
+    background-color: #337ab7;
+    height: 100%;
+}
+div#accordion button
+{
+      color: #fff;
+    background: #4789c1;
+    font-size: 16px;
+    padding: 12px 10px;
+}
+#accordion a
+{
+    color: #fff;
+}
+#accordion .btn:active:focus, #accordion .btn:focus {
+    outline: unset;
+    outline-offset: -2px;
+}
+/*#accordion .card-body
+{
+    padding: 4px 12px;
+}*/
+.card-body p 
+{
+    margin-bottom: 0px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #4582b7;
+    margin-bottom: 5px;
+}
+.company-info 
+{
+    text-align: unset;
+}
+.company-info .logo {
+    position: relative;
+    width:140px;
+    height:70px;
+    margin:0px auto;
+
+} 
+
+.company-info .logo img {
+    position: absolute;
+    width:100%;
+    height:100%;
+} 
+
+.company-info .fa-home
+{
+    font-size: 70px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.mobile-header
+{
+    background: #337ab7;
+    padding: 3px 8px;
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 4px 0 rgba(0,0,0,.12);
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+}
+.mobile-header span 
+{
+    color: #fff;
+}
+.mobile-header p
+{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.mobile-header .fa-user-circle
+{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.mobile-header button
+{
+    background: transparent;
+    padding: 0px;
+}
+.mobile-header .dropdown-item
+{
+    color: #777;
+    padding: 3px 4px;
+    font-size: 15px;
+}
+.mobile-header .dropdown-item .fa 
+{
+    padding-right: 4px;
+}
+.pagination
+{
+  width: 100%;
+}
+
+/*         ---------------------- */
+.mobile-header .dropdown1 .dropbtn1 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-right: 0px;
+    padding-right:0px;
+}
+
+/*.mobile-header .dropdown1:hover .dropbtn1 {
+    background-color: #fafafa;
+}
+*/
+.mobile-header .dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.mobile-header .dropdown1-content a {
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.mobile-header .dropdown-content1 a:hover {
+    background-color: #ddd;
+}
+
+.mobile-header .dropdown1:hover .dropdown1-content {
+    display: block !important;
+}
+
+.home-padding .Location-dash {
+    
+    margin-top: 57px!important;
+    padding:4px!important;
+}
+.property-list {
+    padding: 7px 1px!important;
+   
+}
+
+.master-dash {
+   
+    margin-bottom: 15px;
+}
+
+.details-div .a-div {
+    
+    height: auto!important;
+   
+}
+
+.div1 h4 {
+    
+    font-size: 20px;
+    
+}
+
+.div1 .counter {
+    font-size: 22px;
+   
+}
+.div1 {
+    padding: 15px 11px;
+}
+
+
+.div1 h4 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.master-dash {
+    height: 130px;
+  
+}
+
+.div1 .img {
+    width: 43px;
+    height: 43px;
+  /*  margin: 14px auto;
+    margin-right:10px;*/
+
+}
+
+.navbar.title h2 {    
+    font-size: 18px;
+}
+
+
+.master-dash .contain p {
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+
+.div-contain {    
+    margin-top:47px;
+    padding:3px;
+    margin-bottom:30px;
+}
+
+.div-wrap {
+    width: 100%;
+   padding: 4px 0px;
+}
+
+.property-manage { 
+    padding: 9px;
+}
+
+.form-mobile-md {
+    padding-top:60px!important;   
+
+}
+
+.Property .first-row .col-md-2 {
+    width: 100%;
+}
+.fileupload {
+    margin-bottom: 25px!important;
+    /*text-align: center;*/
+    
+}
+
+body {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.details-div {
+    margin-bottom: 26px!important;
+    margin: -29px auto;
+}
+
+.form-contain, .aits-padding {
+    padding: 7px;
+   /* border: 1px solid #ccc;
+    border-top: 0px solid transparent;*/
+    
+}
+
+div.dataTables_length, div.dataTables_filter, div.dataTables_info, div.dataTables_paginate {
+    /* text-align: center; */
+    float: left;
+    padding: 6px;
+}
+
+hr {
+    margin-top: 6px;
+    
+}
+
+.table-bordered {
+    border: 2px solid #ddd;
+}
+
+.pull-right .add {
+    display:none;
+}
+ .first-div {
+   
+    height: auto!important;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.first-div .fab-btn {
+   /* margin-top:4px;*/
+}
+
+ .first-div .fab-btn.secondary {    
+    margin: 7px;
+}
+
+.change {
+    display:none;
+}
+
+.form-contain .form-control {
+    width: 100%!important;
+    margin-bottom:8px;
+  
+}
+
+.log-profile h4 {
+    margin-left:13px;
+    margin-top:14px;
+}
+
+.btn-img .add {
+   display:none;
+}
+
+.logo {
+    margin-top:0px!important;
+}
+
+.land3 {
+    width:100%!important;
+}
+
+.main-top .copyright {
+     font-size: 14px!important;
+ }
+
+ .div-contain .mar-top {
+    margin-top: 0px!important;
+}
+
+.form-contain .tbzero {
+    border: 2px solid #ddd;
+}
+
+.act-no {
+    display: none;
+}
+
+.main-top .top-left-bg {
+     background-color:unset!important; 
+    
+}
+
+.main-top .bg-image {
+     background-image: none!important; 
+   
+}
+
+.main-top .login {
+
+    color:#fafafa!important;
+}
+.cop-bottom {
+    bottom: 0px;
+    position: absolute;
+    padding-left: 8px;
+}
+
+/*.tablr-ma {
+    margin:0px auto;
+}*/
+
+.main-top .form-control {
+    padding: 0px;
+    color:#fff;
+}
+
+.login-div {
+    padding: 14% 5%!important;
+}
+
+.main-top .form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.users-table#dataTables-example li:last-child span
+    {
+        display: none !important;
+    }
+.pagination>.active>a {
+    z-index: unset!important;
+   
+}
+
+.t-width {
+width:50%!important;
+}
+
+}

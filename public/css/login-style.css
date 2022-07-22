@@ -1,0 +1,348 @@
+.main-top {
+    width: 100%;
+}
+
+.main-top .bg-div {
+    width: 100%;
+    position: relative;
+    margin-top: -16em;
+    border: 0px solid red;
+}
+
+.main-top .bg-image {
+    width: 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-top .bg-color {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid red;
+}
+
+.main-top .left-content {
+
+    top: -50px;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    border: 0px solid red;
+    position: relative;
+}
+
+.main-top .top-row {
+    padding: 0;
+    margin: 0;
+}
+
+.main-top .left-img {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border: 0px solid red;
+    text-align: center;
+}
+
+
+
+.main-top .top-left-bg {
+/*    background-color: rgba(245, 245, 239, .80);
+*/    height: 100%;
+    background-color: #fff;
+}
+
+.main-top .email-control {
+    text-transform: capitalize;
+    color: #000;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+    height: 22px;
+    background-color: transparent;
+}
+
+.main-top .right-top-bg {
+    background-color: rgba(9, 81, 196, .90);
+    height: 100%;
+}
+
+.main-top .alif {
+    border: 0px solid red;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2em;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-family: verdana;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.main-top .btn-sub {
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #0951c4;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+}
+
+.main-top .phone {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.main-top .icon-div {
+    margin-bottom: 13px;
+}
+
+.main-top .logo-bg {
+    background-color: #fff;
+    width: 100px;
+    border-radius: 8px;
+    height: 95px;
+}
+
+.main-top .text {
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.main-top .copywrite {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.main-top .copy {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    word-spacing: 1px;
+}
+
+.main-top .design {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #fff;
+    word-spacing: 1px;
+}
+
+.main-top .res {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.main-top .login {
+    width: 100%;
+    border: 0px solid red;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: verdana;
+    text-align: center;
+}
+.main-top .copyright
+{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+/*........................... CSS .............................*/
+.main-top .form-control
+{
+  margin-bottom: 40px !important;
+}
+.land3
+{
+	width: 35%;
+	margin: 0 auto
+}
+.login-div
+{
+	padding: 8% 10%;
+}
+.company-data
+{
+	padding: 8% 13%;
+}
+.alif
+{
+	color: #fff;
+	font-size: 18px;
+	padding-top: 0px;
+}
+.main-top .icon
+{
+	width: 35px;
+	height: 35px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+.main-top .icon .fa
+{
+	color: #fff;
+	padding: 8px;
+	font-size: 16px;
+}
+.company-data span 
+{
+	color: #ffF;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+.btn-sub
+{
+	width: unset;
+	font-size: 14px;
+}
+.main-top .company-data .btn 
+{
+	padding: 8px;
+}
+.main-top .btn-primary
+{
+  background-image: unset;
+  background-color: #1954b8;
+}
+.logo
+{
+	width: 150px;
+	margin: 0 auto;
+	height: 150px;
+	position: relative;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-top: 130px;
+	z-index: 999;
+}
+.logo img
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 20px;
+}
+/*----------------------------ipad view start ---------------------------- */
+
+@media only screen and (min-width: 481px) and (max-width: 780px) and (orientation:portrait) {
+    * {
+        color: red;
+    }
+
+    .right-top-bg {
+        display: none;
+    }
+
+    .bg-div {
+        margin-top: 24em;
+    }
+}
+
+
+/*----------------------------ipad view start ---------------------------- */
+
+@media only screen and (min-width:781px) and (max-width:1024px) and (orientation:landscape) {
+
+   
+    .btn-sub {
+        width: 50%;
+    }
+    .bg-div {
+        margin-top: 17em;
+    }
+
+    .alif {
+        letter-spacing: 0px;
+        color: #fff;
+    }
+
+    .land {
+        width: 100%;
+        border: 0px solid red;
+        margin: 0 auto;
+    }
+
+    .land1 {
+        width: 5%;
+    }
+
+    .land2 {
+        width: 5%;
+    }
+
+    .land3 {
+        width: 90%;
+    }
+}
+
+
+/*----------------------------laptop  view start ---------------------------- */
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    * {
+        /*color:red;*/
+    }
+}
+
+
+
+
+
+
+
+/*......................Mobile devices ........................*/
+
+@media only screen and (max-width:740px) and (orientation:landscape) {
+
+    .right-top-bg {
+        display: none;
+    }
+    
+    .bg-div {
+        margin-top: 0px;
+        padding-top: 4em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/*......................Mobile devices ........................*/
+
+@media only screen and (max-width:480px) and (orientation:portrait) {
+
+    .right-top-bg {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,1277 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+   .form-heading, .dropbtn1, .second-menu .navbar1 a
+    { 
+    font-family: 'BRADHI' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    }
+ .navbar-brand img
+{
+   
+    border-radius: 4px;
+}
+.navbar1 a, .dropdown1 a, .dropdown1 .dropbtn1
+    { 
+    font-family: 'BRADHI';
+    }   
+.row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+body
+{
+    background-color: #e9f0f9;
+}
+.top-bar .navbar-default {
+    background-color: #238ee8;
+    border: 0px solid transparent;
+    z-index: 999;
+}
+.top-bar .navbar-default
+{
+    background-image: unset;
+    border-radius: 0px;
+}
+.top-bar .navbar-default .navbar-brand:focus, .top-bar .navbar-default .navbar-brand:hover
+{
+    color: #fff;
+}
+.top-bar .navbar-default .navbar-brand
+{
+    color: #fff;
+}
+.top-bar .navbar-default .navbar-nav>li>a
+{
+    color: #fff;
+}
+.top-bar .navbar-brand
+{
+    font-size: 22px;
+}
+.top-bar .fa.fa-home
+{
+    padding-right: 6px;
+}
+/*.dropdown:hover .dropdown-menu
+{
+    display: block;
+}*/
+.navbar
+{
+    margin-bottom: 0px;
+}
+.second-navbar .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    z-index: 999;
+}
+.second-navbar .navbar-default
+{
+    background-image: unset;
+    border-radius: 0px;
+}
+.second-navbar .navbar-default .navbar-nav>li>a
+{
+    color: #9E9E9E;
+    font-size: 15px !important;
+}
+.second-navbar .navbar-collapse
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.second-navbar 
+{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.second-navbar .navbar-default .navbar-nav>.active>a
+{
+    background-image: unset;
+    box-shadow: unset;
+    background-color: #ffffff;
+}
+.second-navbar .navbar-default .navbar-nav>.active>a
+{
+    color: #238ee8 !important;
+}
+/*................*/
+.sidemenu
+{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 105px;
+    background-color: #fff;
+    box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+/*.sidemenu:before
+{
+    background-color: red;
+    display: block;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+}*/
+.master-container
+{
+    width: 100%;
+    background-color: #e9f0f9;
+    margin-top: 20px;
+}
+.sidemenu ul li 
+{
+    list-style: none;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 12px 14px;
+}
+.sidemenu ul li:hover,  .sidemenu ul li.active
+{
+    background-color: #fafafa; 
+}
+.sidemenu ul li a
+{
+    color: #adadad;
+}
+.sidemenu ul li:hover a, .sidemenu ul li.active a
+{
+   color: #238ee8;
+   text-decoration: none;
+}
+.sidemenu ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.master-dash
+{
+    height: 192px;
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+}
+.master-dash .contain
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+.master-dash .contain p 
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+.master-dash .fa-arrow-circle-right
+{
+    padding-left: 10px;
+}
+.div1
+{
+    padding: 25px 15px;
+}
+.div1 .counter
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+.div1 h4 
+{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.div1 .img 
+{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+.div1 .img img 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.master-container .col-md-3
+{
+    margin-bottom: 15px;
+}
+/*.....Footer.....*/
+footer
+{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left:0;
+  background-color: #000;
+  box-shadow: 0 3px 5px 7px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+footer p 
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0pc;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*.....Footer.....*/
+/* ............Location Css ............. */
+.tob-navbar
+{
+position: fixed;
+    width: 100%;
+    z-index: 999;
+    top:0;
+}
+.div-contain
+{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 57px;
+    /*margin-top: 115px;*/
+    margin-top: 111px
+}
+.navbar.title h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar.title .fa 
+{
+    padding-right: 10px;
+}
+.div-contain .navbar-default
+{
+    background-image: unset;
+    background-color: rgba(23, 87, 141, 0.62);
+    box-shadow: unset;
+    border-radius: 4px 4px 0px 0px;
+}
+.div1-contain
+{
+    /*border: 1px solid #ccc;*/
+    border-top: 0px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fab-btn
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.38);
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.fab-btn span
+{
+    padding: 4px 0;
+    display: inline-block;
+    line-height: 24px;
+}
+.fab-btn span .fa
+{
+    color: #000;
+}
+.btn-danger
+{
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+.master-tab .col-md-3
+{
+    width: 20%;
+    background-color: #fff;
+    color: #fff;
+}
+.master-tab
+{
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.master-tab a
+{
+    width: 100%;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 400;
+}
+.master-tab .arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #238ee8;
+  margin-top: -6px;
+}
+.mast-tabs
+{
+    background-color: #fff;
+}
+.mast-tabs.active
+{
+    border-bottom: 2px solid #238ee8;
+    background-color: #f8f8f8;
+}
+.mast-tabs
+{
+       padding: 12px;
+ 
+}
+.table-striped>tbody>tr:nth-of-type(odd)
+{
+    background-color: #ffffff;
+}
+.table-striped>tbody>tr:nth-of-type(even), .table-striped>thead>tr
+{
+    background-color: #f9f9f9;
+}
+.div-contain .filter .form-control
+{
+  width: 12% !important;
+}
+.filer-search
+{
+    margin-top: 15px;
+}
+.pagination
+{
+    margin: 0px;
+}
+.pagination .fa-long-arrow-left 
+{
+    padding-right: 6px;
+}
+.pagination .fa-long-arrow-right 
+{
+    padding-left: 6px;
+}
+.pagi-counter
+{
+    margin-top: 10px;
+    color: #777;
+}
+.div-contain .title
+{
+    padding: 12px;
+}
+.div-contain .btn-secondary
+{
+    background-color: #ffffff;
+}
+.fab-btn.secondary
+{
+    background-color: #ffffff;
+}
+.fab-btn.secondary .fa
+{
+    font-size: 16px;
+    padding: 3px;
+    color: #777;
+}
+.filer-search .input-group-addon
+{
+    background: #ffffff;
+}
+.filer-search .input-group .form-control
+{
+    border-right: 1px solid transparent;
+}
+.filer-search .input-group .form-control:focus
+{
+    box-shadow: unset;
+    border-color: 1px solid #ccc !important;
+}
+.div1-contain .fa-trash
+{
+    color: #ffffff !important;
+}
+.fab-btn.btn-dang
+{
+    background-color: #dc3545;
+    border-radius: 50%;
+}
+/* ............Location Css ............. */
+/*............. Add State ................*/
+.add-state .modal-header
+{
+    background: #3074ae;
+    color: #fff;
+}
+.add-state .modal-header h5
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.modal-dialog
+{
+    margin-top: 120px;
+}
+.modal-body .form-control
+{
+  margin-bottom: 15px;
+  width: 96%;
+}
+input[type='radio']:after{
+    line-height: 1.5em;
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-top: -3px;
+    margin-left: -4px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: #f5f5f5;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+input[type='radio']:checked:after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #FFf;
+    color: white;
+    bottom: .1em; 
+    left: .3em;
+    border: 6px solid #3074ae;
+}
+input[type='checkbox']:after{
+    line-height: 1.5em;
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-top: -3px;
+    margin-left: -4px;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    background: #f5f5f5;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+input[type='checkbox']:checked:after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #FFf;
+    color: white;
+    bottom: .1em; 
+    left: .3em;
+    border: 6px solid #3074ae;
+}
+.radio-text
+{
+    padding-left: 5px;
+}
+.add-state .modal-body
+{
+    padding: 40px 15px !important;
+}
+/*........................................*/
+/*.drop-area{
+  width:100px;
+  height:25px;
+  border: 1px solid #999;
+  text-align: center;
+  padding:10px;
+  cursor:pointer;
+}*/
+#thumbnail
+{
+    width: 180px;
+    margin: 0 auto;
+    height: 180px;
+    position: relative;
+    background-color: #fff;
+    border: 4px solid #f6f6f6;
+    border-radius: 4px;
+}
+#thumbnail img{
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+canvas{
+  border:1px solid red;
+}
+/*Profile Pic End*/
+.form-heading
+{
+    font-weight: bold;
+    margin-top: 0px;
+    color: #272323;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/*...............................*/
+.form-contain .form-control
+{
+    
+    
+    
+}
+.form-contain, /*.div1-contain*/.aits-padding
+{
+    border: 1px solid #ccc;
+    border-top: 0px solid transparent;
+    padding: 25px;
+}
+.gender-select
+{
+    margin-top: 0px;
+}
+.gender-select label
+{
+    font-weight: 400;
+    padding-left: 4px;
+}
+.gender-select strong
+{
+    margin-bottom: 20px;
+}
+.gender-select .row
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.document span 
+{
+    padding-left: 4px;
+}
+/*.................Company Master..................*/
+.div1-contain .form-control
+{
+    width: 96%;
+    margin-bottom: 20px;
+}
+.web-sevices span 
+{
+    padding-left: 5px;
+}
+.ul-list li 
+{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2%;
+}
+.ul-list li span 
+{
+    padding-left: 6px;
+}
+.ul-list {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.home-padding .Location-dash
+{
+    padding: 30px;
+    margin-top: 110px;
+}
+/* ........................ Savita CSS ........................ */
+.aits-title1 {
+    text-transform: capitalize;
+
+}
+
+/*.aits-back-btn {
+    text-transform: uppercase;
+    color:#fff;
+    background-color:green;
+    border-radius:0;
+    margin-left:15px;
+    margin-top:20px;
+    text-align:center;
+    padding:10px 10px 10px 10px;
+    box-shadow:unset;
+}*/
+
+.aits-modal {
+    width:95%;
+    margin:0 auto;
+    padding-top:1.5em;
+}
+
+.aits-com-detail {
+    text-transform: capitalize;
+    font-family: verdana;
+    padding-bottom:.8em;
+    font-size:13px;
+}
+
+.aits-form-control {
+    float:right;
+
+}
+.aits-company {
+    float:right;
+
+}
+.aits-company-email {
+    margin-left:4px;
+
+}
+.aits-form-group {
+    margin-top:3px;
+
+}
+
+.aits-modal-footer {
+    margin-top:1em;
+}
+.aits-btn-secondary {
+    border-radius: 0;
+    box-shadow: none;
+    margin-top:2px;
+    border:0px solid red;
+}
+/*.................................*/
+.div-contain.lead-contain
+{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+.lead-service ul li 
+{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.lead-service ul
+{
+  -webkit-padding-start: 0px;  
+}
+.lead-service ul span 
+{
+    padding-left: 8px;
+}
+.service-label span 
+{
+    padding-left: 8px;
+}
+/*..................................................*/
+/*.table-div .col-md-2
+{
+  width: 20%;
+}*/
+.table-div .bold
+{
+    font-weight: bold;
+    padding-right: 5px;
+}
+.color-yellow
+{
+    background-color: #f39c11;
+    padding: 3px 8px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.color-green
+{
+    background-color: #0f680f;
+    padding: 3px 8px;
+    border-radius: 6px;
+    color: #ffffff !important;
+}
+.color-red
+{
+    background-color: #f00c22;
+    padding: 3px 8px;
+    border-radius: 6px;
+    color: #ffffff !important;
+}
+/*........................... To Do List Css..........................*/
+.user-maindiv .row1
+{
+    border: 1px solid #f5f5f5;
+    background-color: #FAFAFA;
+    padding: 8px 10px;
+}
+.user-maindiv .row p, .user-maindiv .row label
+{
+    margin-bottom: 0px;
+}
+.user-maindiv label
+{
+    padding-right: 5px;
+}
+.user-maindiv .color-yellow .fa
+{
+    color: #ffffff;
+}
+.yellow
+{
+    color: #f39c11 !important;
+}
+.gray 
+{
+    color: #777 !important;
+}
+.black 
+{
+    color: #000 !important;
+}
+.user-maindiv .yellow .fa 
+{
+    padding-right: 5px;
+}
+.div2 
+{
+    padding: 20px 10px;
+    border-bottom: 1px solid #FAFAFA;
+    border-left: 1px solid #FAFAFA;
+    border-right: 1px solid #FAFAFA;
+    box-shadow: 0px 3px 0px -2px #eee;
+}
+.div2 p
+{
+    margin-bottom: 10px !important;
+}
+.div2 hr 
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.border
+{
+    border-right: 1px solid #FAFAFA;
+    padding: 10px;
+}
+.green 
+{
+    color: green !important;
+}
+.note
+{
+    padding: 0px 10px;
+}
+.note p 
+{
+   text-align: justify;
+}
+.para
+{
+    width: 100%;
+    height: 182px;
+    border: 1px solid #FAFAFA;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-top: 15px;
+}
+.fab
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+}
+.list li
+{
+    list-style: none;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.fab .fa 
+{
+    font-size: 25px;
+    padding: 8px;
+}
+.li-group
+{
+    display: none;
+}
+.user-maindiv hr
+{
+    border-top: 1px solid #FAFAFA;
+}
+.fab.blue
+{
+    background-color: #238ee8 !important;
+    color: #fff;
+}
+.fab.red
+{
+    background-color: #dc3545 !important;
+}
+.border .fa, .border label
+{
+    color: #777;
+}
+/* ............................. Foxhatch Limited admin panal css .............................. */
+.second-menu .navbar1 {
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-menu .navbar1 a {
+    float: left;
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.second-menu .dropdown1 {
+    float: left;
+    overflow: hidden;
+}
+
+.second-menu .dropdown1 .dropbtn1 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #777;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.second-menu .navbar1 a:hover, .second-menu .dropdown1:hover .dropbtn1 {
+    background-color: #fafafa;
+}
+
+.second-menu .dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.second-menu .dropdown1-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.second-menu .dropdown-content1 a:hover {
+    background-color: #ddd;
+}
+
+.second-menu .dropdown1:hover .dropdown1-content {
+    display: block !important;
+}
+.second-menu
+{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.top-bar .second-menu
+{
+    box-shadow: unset;
+}
+.top-bar .second-menu .navbar1
+{
+    background-color: #238ee8;
+}
+.top-bar .second-menu .dropdown1 .dropbtn1
+{
+    color: #fff;
+}
+.top-bar .second-menu .dropdown1:hover .dropbtn1
+{
+    color: #777;
+}
+.div-wrap
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 6px 0px;
+}
+.Property .first-row .col-md-2
+{
+   width: 20%;
+}
+.Property .deposite
+{
+    padding-top: 33px;
+}
+.Property .div-padding
+{
+    padding-right: 20px;
+}
+.Property .div-padding1
+{
+    padding-left: 20px;
+}
+.Property .feild-wrap
+{
+    margin-top: 15px;
+}
+.Property .card
+{
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 15px;
+}
+.Property .part1
+{
+    width: 99%;
+    float: left;
+}
+.Property .part2
+{
+    width: 99%;
+    float: right;
+}
+/* ...................................... */
+.fileupload span.btn, .fileupload .btn-danger
+{
+   font-size: 12px;
+}
+.fileupload span.btn, .fileupload .btn-danger
+{
+    padding: 5px 6px;
+}
+.fileupload-new.img-thumbnail
+{
+    width: 120px;
+    height: 100px;
+}
+.fileupload-new.img-thumbnail img
+{
+    width: 100%;
+}
+.fileupload-preview.fileupload-exists.img-thumbnail
+{
+    max-width: 120px; 
+    height: 100px !important; 
+    line-height: 20px;
+    line-height: unset !important;
+}
+.Property .card hr
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Property .card h5
+{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-heading
+{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.Property .deposite {
+    padding-top: 0px;
+}
+.Property label 
+{
+    font-size: 12px;
+}
+.Property .card input.form-control
+{
+    /*border-radius: 0px;*/
+    margin-bottom: 5px;
+   
+}
+.Property .card textarea.form-control
+{
+    /*border-radius: 0px;*/
+    margin-bottom: 5px;
+    padding: 2px 10px;
+}
+.details-property input.form-control
+{
+  margin-bottom: 15px !important;
+  padding: 6px 12px !important;
+  height: 34px !important;
+}
+.details-property textarea.form-control
+{
+  margin-bottom: 15px !important;
+  padding: 6px 12px !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    background-image: unset;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+    background-image: unset;
+}
+
+
+.property-manage 
+{
+    border: 2px solid #c1b6b6;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.first-div
+{
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.63);
+    margin-bottom: 10px;
+}
+
+.first-div label
+{
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 11px;
+}
+.first-row
+{
+    width: 98%;
+    float: left;
+}
+.second-row
+{
+    width: 98%;
+    margin: 0 auto;
+}
+.third-row
+{
+    width: 98%;
+    margin: 0 auto;
+}
+.fourth-row, .last-row
+{
+    width: 98%;
+    /* float: right; */
+}
+.first-div .row1 h5 
+{
+    border-bottom: 1px solid #eee;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777;
+    font-weight: 500;
+    background-color: #f5f5f5;
+}
+.first-div .col-md-6:first-child, .first-div .col-md-5:first-child
+{
+    border-right: 1px solid #eee;
+}
+.first-div p
+{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+.second-row.Deposite .col-md-7 .row
+{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+}
+.second-row.Deposite .col-md-7 p 
+{
+    border-bottom: 0px solid transparent;
+}
+.third-row .col-md-7 .col-md-6
+{
+    border-right: 0px solid transparent;
+}
+.property-manage hr
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/*.red
+{
+    color: #f32726;
+}
+.blue
+{
+    color: #238ee8;
+}*/
+.property-manage .status
+{
+    background-color: #FFC107;
+    padding: 3px 6px;
+    border-radius: 4px; 
+}
+.property-manage .buttons .fa
+{
+   padding-right: 6px;
+}
+.details-div
+{
+    width: 100%;
+    margin: 26px auto;
+    margin-bottom: 80px;
+}
+.details-div .img
+{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.details-div .img img
+{
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+   -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor:url('../img/search.png'),auto;
+}
+.details-div .img:hover img
+{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.details-div .a-div
+{
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border: 2px solid #4a44441a;
+    padding: 2px;
+    height: 335px;
+    box-shadow: 0px 0px 2px 2px rgba(30, 28, 28, 0.06);
+    background-color: #FFF;
+}
+.details-div .contain
+{
+    /*background-color: #fff; */
+    padding: 15px;
+}
+.details-div .contain h4 
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.details-div .cont
+{
+    background-color: #f39c11;
+}
+.details-div .cont h4, .details-div .cont p
+{
+    color: #fff;
+    font-weight: 700;
+}
+.details-div .cont h4
+{
+    margin-bottom: 0px;
+}
+.details-div .contain2
+{
+    /*background-color: #fafafa;*/
+    padding: 5px 10px;
+}
+.details-div .contain2 h4, .details-div .contain2 p
+{
+    font-weight: bold;
+    color: #777;
+}
+.details-div .contain2 p
+{
+    text-transform: uppercase;
+}
+.details-div p 
+{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+.sidenav, .mobile-header {
+    display:none;
+}
+.div-contain .mar-top {
+    margin-top: 0px;
+} 
+
+.form-contain .tbzero {
+    border:0;
+}
+.t-width {
+width:30%;
+}
+
+table {
+    width:100%!important;
+} 
+
+.p-paddg {
+    padding:12px;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fafafa;
+    background-color: #228bf7;
+    margin-right: 10px;
+}
+
+
+
